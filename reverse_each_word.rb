@@ -12,12 +12,10 @@ def reverse_each_word(sentence)
   #end
   array.collect do |word| 
     array2.push(word.reverse)
-    #new_sentence = array.join(" ").reverse
-    #new_sentence += word.reverse
-    #new_sentence += " "
+    new_sentence = array.join(" ")
   end
-  array2
-  #new_sentence
+  #array2
+  new_sentence
   #puts new_sentence
 end
 
