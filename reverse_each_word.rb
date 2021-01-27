@@ -9,7 +9,7 @@ def reverse_each_word(sentence)
     #new_sentence += " "
   #  #binding.pry
   #end
-  array.collect do |word| word.reverse
+  array.collect do |word| #word.reverse
     new_sentence = array.join(" ").reverse
     #new_sentence += word.reverse
     #new_sentence += " "
